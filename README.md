@@ -1,6 +1,6 @@
 # Assembler
 This is my first project from 2019 in C language - we were asked to make an assembler for an assembly language that was described.
-It might have been written better but it's my first project I worked on.
+
 The assembler was written for ubuntu but I included .exe file to make it work on windows as well.
 
 assembler.c - Where the main() is at - this file reads the assembly files path from the terminal as arguments to main.
