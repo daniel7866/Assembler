@@ -14,3 +14,9 @@ error.c - This file is responsible for errors in the assembly files - it produce
 globalsAndCounters.c - This file as it's name suggests has the counters and global variables for the assembler - for example: line counter-to tell the user where something went wrong.
 
 symbolTable.c - This file is responsible for storing all user's labels in the assembly code(like variables) - using a linked list.
+
+The assembler will get assembly files (.as)
+If there are no errors it will produce:
+.ent file - Contains all the labels with their addresses to load to memory
+.ext file - Contains all the external labels=labels imported from different .as file
+.ob file - Contains the binary code for the program in base64
